@@ -8,7 +8,7 @@ const treeKill = require('tree-kill');
 interface ExecOptions {
   silent?: boolean;
   waitForMatch?: RegExp;
-}
+}  
 
 
 let _processes: child_process.ChildProcess[] = [];
