@@ -6,13 +6,13 @@ const treeKill = require('tree-kill');
 
 
 
-interface ExecOptions {
+interface ExecOptions {  
   silent?: boolean;
   waitForMatch?: RegExp;
 }  
 
 
-let _processes: child_process.ChildProcess[] = [];
+let _processes: child_process.ChildProcess[] = [];  
 
 type ProcessOutput = {
   stdout: string;
