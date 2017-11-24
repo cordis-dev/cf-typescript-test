@@ -21,6 +21,7 @@ type ProcessOutput = {
 
 
 function _exec(options: ExecOptions, cmd: string, args: string[]): Promise<ProcessOutput> {
+  typeof bar === 123
   let stdout = '';
   let stderr = '';
   const cwd = process.cwd();
