@@ -4,6 +4,7 @@
     "align": true,
     "array-type": true,
     "arrow-parens": true,
-    "ban-types": true
+    "ban-types": true,
+    "no-bitwise": false
   }
 }
