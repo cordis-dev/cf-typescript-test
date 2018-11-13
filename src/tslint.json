@@ -1,6 +1,9 @@
 {
-  "extends": ["tslint-plugin-prettier"],
+  "extends": "../tslint.json",
   "rules": {
-    "prettier": [true, "configs/.prettierrc", { "editorconfig": false }]
+    "align": true,
+    "array-type": true,
+    "arrow-parens": true,
+    "ban-types": true
   }
 }
