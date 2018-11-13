@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:recommended", "./index.js"],
+  "extends": ["tslint:recommended"],
   "jsRules": {},
   "rules": {
     "align": false,
