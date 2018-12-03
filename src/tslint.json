@@ -1,5 +1,5 @@
 {
-  "extends": "../tslint2.json",
+  "extends": "../tslint2.yml",
   "rules": {
     "align": true,
     "array-type": true,
