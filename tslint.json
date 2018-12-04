@@ -7,5 +7,5 @@
     "arrow-parens": false,
     "ban-types": false
   },
-  "rulesDirectory": []
+  "rulesDirectory": ["abc"]
 }
